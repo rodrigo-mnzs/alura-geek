@@ -1,0 +1,6 @@
+.banner{
+    background-image: url("../images/banner-image.png");
+    background-repeat: no-repeat;
+    height: 22rem;
+    width: 100%;
+}

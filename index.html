@@ -11,31 +11,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
-    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-principal.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-container.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-container-logo.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalhoContainer-icone.css">
     <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-botao.css">
-    <link rel="stylesheet" href="assets/css/pesquisa/pesquisa.css">
-    <link rel="stylesheet" href="assets/css/pesquisa/pesquisa-campo.css">
-    <link rel="stylesheet" href="assets/css/pesquisa/pesquisa-icone.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-container-pesquisa.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/banner-container/banner-container.css">
+    <link rel="stylesheet" href="assets/css/banner-container/banner-container-titulo.css">
+    <link rel="stylesheet" href="assets/css/banner-container/banner-container-subtitulo.css">
+    <link rel="stylesheet" href="assets/css/banner-container/banner-container-botao.css">
 </head>
 
 <body>
     <header class="cabecalho">
-        <div class="cabecalho__principal">
-            <a href="#"><img class="cabecalho__principal--logo" src="assets/images/logo.png" alt="Logo Alura Geek" /></a>
-            <div class="pesquisa">
-                <input class="pesquisa__campo" type="text" placeholder="O que deseja encontrar?" />
-                <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="cabecalho-container">
+            <a href="#"><img class="cabecalho-container__logo" src="assets/images/logo.png"
+                    alt="Logo Alura Geek" /></a>
+            <div class="cabecalho-container__pesquisa">
+                <input class="cabecalho-conteiner__pesquisa--campo" type="text" placeholder="O que deseja encontrar?" />
+                <i class="fa-solid fa-magnifying-glass cabecalho-conteiner__pesquisa--icone"></i>
             </div>
         </div>
         <button class="cabecalho__botao">Login</button>
     </header>
     <main>
         <section class="banner">
-            <img class="banner__imagem" src="" alt="" />
-            <h1 class="banner__titulo">Dezembro Promocional</h1>
-            <h2 class="banner__subtitulo">Produtos selecionados com 33% de desconto</h2>
-            <button class="banner__botao">Ver Consoles</button>
+            <div class="banner-container">
+                <h1 class="banner-container__titulo">Dezembro Promocional</h1>
+                <h2 class="banner-container__subtitulo">Produtos selecionados com 33% de desconto</h2>
+                <button class="banner-container__botao">Ver Consoles</button>
+            </div>
         </section>
         <section class="categorias">
             <div class="categoria">

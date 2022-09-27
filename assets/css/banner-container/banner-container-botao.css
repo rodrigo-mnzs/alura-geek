@@ -1,0 +1,24 @@
+.banner-container__botao{
+    background: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 3.1875rem;
+    transition: 0;
+    width: 8.125rem;
+}
+
+.banner-container__botao:hover{
+    box-shadow: 0 0 .3125rem #2A7AE4;
+    opacity: 0.8;
+    transition-duration: 0.1s;
+}
+
+.banner-container__botao:active{
+    box-shadow: 0 0 .3125rem #2A7AE4;
+    opacity: 0.8;
+    transform: scale(1.1);
+}
