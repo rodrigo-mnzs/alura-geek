@@ -1,0 +1,8 @@
+.cabecalho__principal{
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho__principal--logo{
+    height: 2.5rem;
+}

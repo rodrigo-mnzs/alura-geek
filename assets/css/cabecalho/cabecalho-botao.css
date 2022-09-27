@@ -1,0 +1,24 @@
+.cabecalho__botao{
+    background: none;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 3.1875rem;
+    transition: 0;
+    width: 11.375rem;
+}
+
+.cabecalho__botao:hover{
+    background: #edf5fc;
+    box-shadow: 0 0 .3125rem #2A7AE4;
+    transition-duration: 0.1s;
+}
+
+.cabecalho__botao:active{
+    background: #edf5fc;
+    box-shadow: 0 0 .3125rem #2A7AE4;
+    transform: scale(1.1);
+}
