@@ -1,0 +1,23 @@
+.categoria__visualizar{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.categoria__visualizar--icone{
+    color: #2A7AE4;
+    height: 1rem;
+    padding-left: 1rem;
+    width: 1rem;
+}
+
+.categoria__visualizar:hover{
+    color: #5595E9;
+    text-decoration: underline;
+}
+
+.categoria__visualizar:visited{
+    color: #7B61FF;
+}

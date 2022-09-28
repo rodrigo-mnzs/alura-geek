@@ -1,0 +1,4 @@
+.produtos{
+    display: flex;
+    flex-direction: row;
+}

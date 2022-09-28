@@ -1,0 +1,16 @@
+.produto__visualizar{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.produto__visualizar:hover{
+    color: #5595E9;
+    text-decoration: underline;
+}
+
+.produto__visualizar:visited{
+    color: #7B61FF;
+}

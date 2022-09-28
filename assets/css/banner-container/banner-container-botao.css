@@ -12,13 +12,13 @@
 }
 
 .banner-container__botao:hover{
+    background: #5595E9;
     box-shadow: 0 0 .3125rem #2A7AE4;
-    opacity: 0.8;
     transition-duration: 0.1s;
 }
 
 .banner-container__botao:active{
+    background: #5595E9;
     box-shadow: 0 0 .3125rem #2A7AE4;
-    opacity: 0.8;
     transform: scale(1.1);
 }

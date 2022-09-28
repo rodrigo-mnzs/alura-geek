@@ -12,13 +12,13 @@
 }
 
 .cabecalho__botao:hover{
-    background: #edf5fc;
+    background: #D4E4FA;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transition-duration: 0.1s;
 }
 
 .cabecalho__botao:active{
-    background: #edf5fc;
+    background: #D4E4FA;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transform: scale(1.1);
 }

@@ -1,0 +1,9 @@
+.produto{
+    height: 15.75rem;
+    width: 11rem;
+    margin-right: 1rem;
+}
+
+.produto:last-child{
+    margin-right: -1rem;
+}
