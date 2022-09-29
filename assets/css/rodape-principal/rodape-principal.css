@@ -2,5 +2,6 @@
     background: #EAF2FD;;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding: 4rem 9.5rem 4rem 9.5rem;
 }

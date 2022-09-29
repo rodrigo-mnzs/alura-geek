@@ -17,15 +17,18 @@
     box-shadow: 0 1px 0 #C8C8C8;
     height: 3.5rem;
     margin-bottom: 1rem;
+    padding: 0 .75rem;
 }
 
 .rodape-principal__formulario--nome::placeholder{
     color: #A2A2A2;
-    padding: 1rem 0 0 .5rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 .rodape-principal__formulario--nome:focus {
     outline: none;
+    border: .0625rem solid #2A7AE4;
+    box-shadow: 0 0 .3125rem #2A7AE4;
     transition-duration: 0.1s;
 }
 
@@ -33,18 +36,22 @@
     border: none;
     border-radius: .25rem;
     box-shadow: 0 1px 0 #C8C8C8;
+    font-family: 'Raleway', sans-serif;
     height: 5.125rem;
     margin-bottom: 0.5rem;
+    padding: 1rem .75rem;
+    resize: none;
 }
 
 .rodape-principal__formulario--mensagem::placeholder{
     color: #A2A2A2;
-    padding: 1rem 0 0 .5rem;
 }
 
 
 .rodape-principal__formulario--mensagem:focus {
     outline: none;
+    border: .0625rem solid #2A7AE4;
+    box-shadow: 0 0 .3125rem #2A7AE4;
     transition-duration: 0.1s;
 }
 

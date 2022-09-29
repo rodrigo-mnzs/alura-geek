@@ -1,7 +1,8 @@
 .banner{
     background-image: url("../images/banner-image.png");
     background-repeat: no-repeat;
-    height: 22rem;
+    background-size: cover;
+    height: 37.5667022411953vh;
     margin-bottom: 4rem;
-    width: 100%;
+    width: 100vw;
 }
