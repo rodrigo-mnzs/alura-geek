@@ -1,0 +1,23 @@
+.rodape-principal__navegacao {
+    margin-right: 7rem;
+}
+
+.rodape-principal__navegacao--link {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+}
+
+.rodape-principal__navegacao--link a {
+    text-decoration: none;
+}
+
+.rodape-principal__navegacao--link:last-child {
+    margin-bottom: -1.5rem;
+}
+
+.rodape-principal__navegacao--link:hover{
+    text-decoration: underline;
+}

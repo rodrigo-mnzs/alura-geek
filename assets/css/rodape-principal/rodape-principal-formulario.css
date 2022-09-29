@@ -1,0 +1,74 @@
+.rodape-principal__formulario{
+    display: flex;
+    flex-direction: column;
+    width: calc(100vh - 9.5rem);
+}
+
+.rodape-principal__formulario--label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.rodape-principal__formulario--nome{
+    border: none;
+    border-radius: .25rem;
+    box-shadow: 0 1px 0 #C8C8C8;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.rodape-principal__formulario--nome::placeholder{
+    color: #A2A2A2;
+    padding: 1rem 0 0 .5rem;
+}
+
+.rodape-principal__formulario--nome:focus {
+    outline: none;
+    transition-duration: 0.1s;
+}
+
+.rodape-principal__formulario--mensagem{
+    border: none;
+    border-radius: .25rem;
+    box-shadow: 0 1px 0 #C8C8C8;
+    height: 5.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.rodape-principal__formulario--mensagem::placeholder{
+    color: #A2A2A2;
+    padding: 1rem 0 0 .5rem;
+}
+
+
+.rodape-principal__formulario--mensagem:focus {
+    outline: none;
+    transition-duration: 0.1s;
+}
+
+.rodape-principal__formulario--botao{
+    background: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 3.1875rem;
+    transition: 0;
+    width: 10.3125rem;
+}
+
+.rodape-principal__formulario--botao:hover{
+    background: #5595E9;
+    box-shadow: 0 0 .3125rem #2A7AE4;
+    transition-duration: 0.1s;
+}
+
+.rodape-principal__formulario--botao:active{
+    background: #5595E9;
+    box-shadow: 0 0 .3125rem #2A7AE4;
+    transform: scale(1.1);
+}

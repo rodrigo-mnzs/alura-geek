@@ -1,0 +1,10 @@
+.rodape-secundario {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    height: 6.375rem;
+    justify-content: center;
+    margin: 0 9.5rem 0 9.5rem;
+    text-align: center;
+}
