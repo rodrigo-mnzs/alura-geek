@@ -4,5 +4,6 @@
     flex-direction: row;
     height: 7.1875rem;
     justify-content: space-between;
+    max-width: calc(90rem - 24rem);
     padding: 0 9.5rem;
 }

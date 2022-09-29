@@ -17,35 +17,40 @@
     box-shadow: 0 1px 0 #C8C8C8;
     height: 3.5rem;
     margin-bottom: 1rem;
+    padding: 0 .75rem;
 }
 
 .rodape-principal__formulario--nome::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
     color: #A2A2A2;
-    padding: 1rem 0 0 .5rem;
 }
 
 .rodape-principal__formulario--nome:focus {
     outline: none;
-    transition-duration: 0.1s;
 }
 
 .rodape-principal__formulario--mensagem{
     border: none;
     border-radius: .25rem;
     box-shadow: 0 1px 0 #C8C8C8;
-    height: 5.125rem;
+    height: calc(5.125rem - 32px);
     margin-bottom: 0.5rem;
+    padding: 1rem .75rem;
+    resize: none;
 }
 
 .rodape-principal__formulario--mensagem::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
     color: #A2A2A2;
-    padding: 1rem 0 0 .5rem;
 }
 
 
 .rodape-principal__formulario--mensagem:focus {
     outline: none;
-    transition-duration: 0.1s;
 }
 
 .rodape-principal__formulario--botao{
