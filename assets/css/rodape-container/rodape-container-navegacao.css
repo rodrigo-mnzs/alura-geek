@@ -1,8 +1,8 @@
-.rodape-principal__navegacao {
+.rodape-container__navegacao {
     margin-right: 7rem;
 }
 
-.rodape-principal__navegacao--link {
+.rodape-container__navegacao--link {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 500;
@@ -10,14 +10,14 @@
     text-decoration: none;
 }
 
-.rodape-principal__navegacao--link a {
+.rodape-container__navegacao--link a {
     text-decoration: none;
 }
 
-.rodape-principal__navegacao--link:last-child {
+.rodape-container__navegacao--link:last-child {
     margin-bottom: -1.5rem;
 }
 
-.rodape-principal__navegacao--link:hover{
+.rodape-container__navegacao--link:hover{
     text-decoration: underline;
 }

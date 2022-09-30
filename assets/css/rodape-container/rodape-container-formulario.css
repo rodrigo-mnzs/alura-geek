@@ -1,17 +1,17 @@
-.rodape-principal__formulario{
+.rodape-container__formulario{
     display: flex;
     flex-direction: column;
     width: calc(100vh - 9.5rem);
 }
 
-.rodape-principal__formulario--label{
+.rodape-container__formulario--label{
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: .5rem;
 }
 
-.rodape-principal__formulario--nome{
+.rodape-container__formulario--nome{
     border: none;
     border-radius: .25rem;
     box-shadow: 0 1px 0 #C8C8C8;
@@ -20,7 +20,7 @@
     padding: 0 .75rem;
 }
 
-.rodape-principal__formulario--nome::placeholder{
+.rodape-container__formulario--nome::placeholder{
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -28,14 +28,14 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.rodape-principal__formulario--nome:focus {
+.rodape-container__formulario--nome:focus {
     outline: none;
     border: .0625rem solid #2A7AE4;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transition-duration: 0.1s;
 }
 
-.rodape-principal__formulario--mensagem{
+.rodape-container__formulario--mensagem{
     border: none;
     border-radius: .25rem;
     box-shadow: 0 1px 0 #C8C8C8;
@@ -46,7 +46,7 @@
     resize: none;
 }
 
-.rodape-principal__formulario--mensagem::placeholder{
+.rodape-container__formulario--mensagem::placeholder{
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -54,14 +54,14 @@
 }
 
 
-.rodape-principal__formulario--mensagem:focus {
+.rodape-container__formulario--mensagem:focus {
     outline: none;
     border: .0625rem solid #2A7AE4;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transition-duration: 0.1s;
 }
 
-.rodape-principal__formulario--botao{
+.rodape-container__formulario--botao{
     background: #2A7AE4;
     border: none;
     color: #FFFFFF;
@@ -74,13 +74,13 @@
     width: 10.3125rem;
 }
 
-.rodape-principal__formulario--botao:hover{
+.rodape-container__formulario--botao:hover{
     background: #5595E9;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transition-duration: 0.1s;
 }
 
-.rodape-principal__formulario--botao:active{
+.rodape-container__formulario--botao:active{
     background: #5595E9;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transform: scale(1.1);
