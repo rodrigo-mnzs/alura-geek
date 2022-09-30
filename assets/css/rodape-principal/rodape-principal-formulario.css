@@ -25,32 +25,22 @@
     font-size: 1rem;
     font-weight: 400;
     color: #A2A2A2;
-<<<<<<< HEAD
-=======
     font-family: 'Raleway', sans-serif;
->>>>>>> 4fb16af3fd7e45a4f7f8f8fc894337387a6ec49e
 }
 
 .rodape-principal__formulario--nome:focus {
     outline: none;
-<<<<<<< HEAD
-=======
     border: .0625rem solid #2A7AE4;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transition-duration: 0.1s;
->>>>>>> 4fb16af3fd7e45a4f7f8f8fc894337387a6ec49e
 }
 
 .rodape-principal__formulario--mensagem{
     border: none;
     border-radius: .25rem;
     box-shadow: 0 1px 0 #C8C8C8;
-<<<<<<< HEAD
-    height: calc(5.125rem - 32px);
-=======
     font-family: 'Raleway', sans-serif;
     height: 5.125rem;
->>>>>>> 4fb16af3fd7e45a4f7f8f8fc894337387a6ec49e
     margin-bottom: 0.5rem;
     padding: 1rem .75rem;
     resize: none;
@@ -66,12 +56,9 @@
 
 .rodape-principal__formulario--mensagem:focus {
     outline: none;
-<<<<<<< HEAD
-=======
     border: .0625rem solid #2A7AE4;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transition-duration: 0.1s;
->>>>>>> 4fb16af3fd7e45a4f7f8f8fc894337387a6ec49e
 }
 
 .rodape-principal__formulario--botao{
