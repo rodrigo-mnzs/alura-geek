@@ -1,0 +1,37 @@
+.rodape__navegacao {
+    margin-left: 2rem;
+}
+
+.rodape__navegacao--link {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+}
+
+.rodape__navegacao--link a {
+    text-decoration: none;
+}
+
+.rodape__navegacao--link:last-child {
+    margin-bottom: 0;
+}
+
+.rodape__navegacao--link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .rodape__navegacao {
+        margin-bottom: 1rem;
+        margin-left: 0;
+        max-width: 15.875rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .rodape__navegacao {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}

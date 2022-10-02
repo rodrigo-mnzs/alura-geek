@@ -11,17 +11,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="assets/css/cabecalho.css">
-  <link rel="stylesheet" href="assets/css/cabecalho-container/cabecalho-container.css">
-  <link rel="stylesheet" href="assets/css/cabecalho-container/cabecalho-container-logo.css">
-  <link rel="stylesheet" href="assets/css/cabecalho-container/cabecalhoContainer-icone.css">
-  <link rel="stylesheet" href="assets/css/cabecalho-container/cabecalho-botao.css">
-  <link rel="stylesheet" href="assets/css/cabecalho-container/cabecalho-container-pesquisa.css">
-  <link rel="stylesheet" href="assets/css/banner.css">
-  <link rel="stylesheet" href="assets/css/banner-container/banner-container.css">
-  <link rel="stylesheet" href="assets/css/banner-container/banner-container-titulo.css">
-  <link rel="stylesheet" href="assets/css/banner-container/banner-container-subtitulo.css">
-  <link rel="stylesheet" href="assets/css/banner-container/banner-container-botao.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
+  <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-logo.css">
+  <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-botao.css">
+  <link rel="stylesheet" href="assets/css/cabecalho/cabecalho-pesquisa.css">
+  <link rel="stylesheet" href="assets/css/background.css">
+  <link rel="stylesheet" href="assets/css/banner/banner.css">
+  <link rel="stylesheet" href="assets/css/banner/banner-titulo.css">
+  <link rel="stylesheet" href="assets/css/banner/banner-subtitulo.css">
+  <link rel="stylesheet" href="assets/css/banner/banner-botao.css">
   <link rel="stylesheet" href="assets/css/categorias.css">
   <link rel="stylesheet" href="assets/css/categoria/categoria.css">
   <link rel="stylesheet" href="assets/css/categoria/categoria-titulo.css">
@@ -32,33 +31,28 @@
   <link rel="stylesheet" href="assets/css/produto/produto-titulo.css">
   <link rel="stylesheet" href="assets/css/produto/produto-preco.css">
   <link rel="stylesheet" href="assets/css/produto/produto-visualizar.css">
-  <link rel="stylesheet" href="assets/css/rodape.css">
-  <link rel="stylesheet" href="assets/css/rodape-container/rodape-container.css">
-  <link rel="stylesheet" href="assets/css/rodape-container/rodape-container-imagem.css">
-  <link rel="stylesheet" href="assets/css/rodape-container/rodape-container-navegacao.css">
-  <link rel="stylesheet" href="assets/css/rodape-container/rodape-container-formulario.css">
-  <link rel="stylesheet" href="assets/css/rodape-secundario/rodape-secundario.css">
-  <link rel="stylesheet" href="assets/css/rodape-secundario/rodape-secundario-autor.css">
-  <link rel="stylesheet" href="assets/css/rodape-secundario/rodape-secundario-ano.css">
+  <link rel="stylesheet" href="assets/css/rodape/rodape.css">
+  <link rel="stylesheet" href="assets/css/rodape/rodape-imagem.css">
+  <link rel="stylesheet" href="assets/css/rodape/rodape-navegacao.css">
+  <link rel="stylesheet" href="assets/css/rodape/rodape-formulario.css">
+  <link rel="stylesheet" href="assets/css/info.css">
 </head>
 
 <body>
   <header class="cabecalho">
-    <div class="cabecalho-container">
-      <a href="#"><img class="cabecalho-container__logo" src="assets/images/logo.png" alt="Logo Alura Geek" /></a>
-      <div class="cabecalho-container__pesquisa">
-        <input id="pesquisa-campo" class="cabecalho-conteiner__pesquisa--campo" type="text" placeholder="O que deseja encontrar?" />
-        <label for="pesquisa-campo"><i class="fa-solid fa-magnifying-glass cabecalho-conteiner__pesquisa--icone"></i></label>
+      <a href="#"><img class="cabecalho__logo" src="assets/images/logo.png" alt="Logo Alura Geek" /></a>
+      <div class="cabecalho__pesquisa">
+        <input id="pesquisa-campo" class="cabecalho__pesquisa--campo" type="text"placeholder="O que deseja encontrar?" />
+        <label for="pesquisa-campo"><i class="fa-solid fa-magnifying-glass cabecalho__pesquisa--icone"></i></label>
       </div>
-    </div>
-    <button class="cabecalho__botao">Login</button>
+      <button class="cabecalho__botao">Login</button>
   </header>
   <main>
-    <section class="banner">
-      <div class="banner-container">
-        <h1 class="banner-container__titulo">Dezembro Promocional</h1>
-        <h2 class="banner-container__subtitulo">Produtos selecionados com 33% de desconto</h2>
-        <button class="banner-container__botao">Ver Consoles</button>
+    <section class="background">
+      <div class="banner">
+        <h1 class="banner__titulo">Dezembro Promocional</h1>
+        <h2 class="banner__subtitulo">Produtos selecionados com 33% de desconto</h2>
+        <button class="banner__botao">Ver Consoles</button>
       </div>
     </section>
     <section class="categorias">
@@ -68,37 +62,37 @@
       </div>
       <div class="produtos">
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/star-wars.png" alt="">
+          <img class="produto__imagem" src="assets/images/star-wars1.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/star-wars.png" alt="">
+          <img class="produto__imagem" src="assets/images/star-wars2.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/star-wars.png" alt="">
+          <img class="produto__imagem" src="assets/images/star-wars3.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/star-wars.png" alt="">
+          <img class="produto__imagem" src="assets/images/star-wars4.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/star-wars.png" alt="">
+          <img class="produto__imagem" src="assets/images/star-wars5.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/star-wars.png" alt="">
+          <img class="produto__imagem" src="assets/images/star-wars6.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
@@ -112,37 +106,37 @@
       </div>
       <div class="produtos">
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/console.png" alt="">
+          <img class="produto__imagem" src="assets/images/console1.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/console.png" alt="">
+          <img class="produto__imagem" src="assets/images/console2.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/console.png" alt="">
+          <img class="produto__imagem" src="assets/images/console3.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/console.png" alt="">
+          <img class="produto__imagem" src="assets/images/console4.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/console.png" alt="">
+          <img class="produto__imagem" src="assets/images/console5.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/console.png" alt="">
+          <img class="produto__imagem" src="assets/images/console6.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
@@ -152,41 +146,42 @@
     <section class="categorias">
       <div class="categoria">
         <h3 class="categoria__titulo">Diversos</h3>
-        <a class="categoria__visualizar" href="">Ver tudo<i class="fa-solid fa-arrow-right categoria__visualizar--icone"></i></a>
+        <a class="categoria__visualizar" href="">Ver tudo<i
+            class="fa-solid fa-arrow-right categoria__visualizar--icone"></i></a>
       </div>
       <div class="produtos">
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/diversos.png" alt="">
+          <img class="produto__imagem" src="assets/images/diversos1.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/diversos.png" alt="">
+          <img class="produto__imagem" src="assets/images/diversos2.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/diversos.png" alt="">
+          <img class="produto__imagem" src="assets/images/diversos3.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/diversos.png" alt="">
+          <img class="produto__imagem" src="assets/images/diversos4.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/diversos.png" alt="">
+          <img class="produto__imagem" src="assets/images/diversos5.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
         </div>
         <div class="produto">
-          <img class="produto__imagem" src="assets/images/diversos.png" alt="">
+          <img class="produto__imagem" src="assets/images/diversos6.png" alt="">
           <h4 class="produto__titulo">Produto XYZ</h4>
           <p class="produto__preco">R$ 60,00</p>
           <a class="produto__visualizar" href="">Ver produto</a>
@@ -194,31 +189,29 @@
       </div>
     </section>
   </main>
-  <footer class="rodape">
-    <div class="rodape-container">
-      <div class="rodape-container__imagem">
-        <img class="rodape-container__imagem--logo" src="assets/images/logo.png" alt="Logo Alura Geek">
-      </div>
-      <nav class="rodape-container__navegacao">
+  <footer>
+    <div class="rodape">
+      <img class="rodape__logo" src="assets/images/logo.png" alt="Logo Alura Geek">
+      <nav class="rodape__navegacao">
         <ul>
-          <li class="rodape-container__navegacao--link"><a href="">Quem somos nós</a></li>
-          <li class="rodape-container__navegacao--link"><a href="">Política de privacidade</a></li>
-          <li class="rodape-container__navegacao--link"><a href="">Programa fidelidade</a></li>
-          <li class="rodape-container__navegacao--link"><a href="">Nossas lojas</a></li>
-          <li class="rodape-container__navegacao--link"><a href="">Quero ser franqueado</a></li>
-          <li class="rodape-container__navegacao--link"><a href="">Anuncie aqui</a></li>
+          <li class="rodape__navegacao--link"><a href="">Quem somos nós</a></li>
+          <li class="rodape__navegacao--link"><a href="">Política de privacidade</a></li>
+          <li class="rodape__navegacao--link"><a href="">Programa fidelidade</a></li>
+          <li class="rodape__navegacao--link"><a href="">Nossas lojas</a></li>
+          <li class="rodape__navegacao--link"><a href="">Quero ser franqueado</a></li>
+          <li class="rodape__navegacao--link"><a href="">Anuncie aqui</a></li>
         </ul>
       </nav>
-      <form class="rodape-container__formulario">
-        <label class="rodape-container__formulario--label">Fale conosco</label>
-        <input class="rodape-container__formulario--nome" type="text" placeholder="Nome">
-        <textarea class="rodape-container__formulario--mensagem" placeholder="Escreva sua mensagem" cols="30" rows="10"></textarea>
-        <button class="rodape-container__formulario--botao">Enviar mensagem</button>
+      <form class="rodape__formulario">
+        <label class="rodape__formulario--label">Fale conosco</label>
+        <input class="rodape__formulario--nome" type="text" placeholder="Nome">
+        <textarea class="rodape__formulario--mensagem" placeholder="Escreva sua mensagem" cols="30" rows="10"></textarea>
+        <button class="rodape__formulario--botao">Enviar mensagem</button>
       </form>
     </div>
-    <div class="rodape__info">
-      <p class="rodape__info--autor">Desenvolvido por Rodrigo Menezes</p>
-      <p class="rodape__info--ano">2022</p>
+    <div class="info">
+      <p class="info__autor">Desenvolvido por Rodrigo Menezes</p>
+      <p class="info__ano">2022</p>
     </div>
   </footer>
 </body>

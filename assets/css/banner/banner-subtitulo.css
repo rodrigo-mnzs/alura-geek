@@ -1,0 +1,13 @@
+.banner__subtitulo{
+    color: #FFFFFF;
+    font-size: 1.375rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 360px) {
+    .banner__subtitulo{
+        font-size: .875rem;
+        padding-bottom: .5rem;
+    }
+}

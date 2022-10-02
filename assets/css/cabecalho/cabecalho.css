@@ -1,0 +1,19 @@
+.cabecalho{
+    align-items: center;
+    display: flex;
+    height: 7.1875rem;
+    padding: 0 9.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho{
+        padding: 0 2rem;
+        height: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .cabecalho{
+        padding: 0 1rem;
+    }
+}

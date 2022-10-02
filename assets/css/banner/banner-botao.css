@@ -1,24 +1,36 @@
-.banner-container__botao{
+.banner__botao{
     background: #2A7AE4;
     border: none;
     color: #FFFFFF;
     cursor: pointer;
-    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     height: 3.1875rem;
-    transition: 0;
+    margin-bottom: 2rem;
     width: 8.125rem;
 }
 
-.banner-container__botao:hover{
+.banner__botao:hover{
     background: #5595E9;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transition-duration: 0.1s;
 }
 
-.banner-container__botao:active{
+.banner__botao:active{
     background: #5595E9;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .banner__botao{
+        height: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .banner__botao{
+        height: 2.5rem;
+        width: 7.4375rem;
+    }
 }

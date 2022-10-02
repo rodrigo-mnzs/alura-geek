@@ -1,17 +1,17 @@
-.rodape-container__formulario{
+.rodape__formulario{
     display: flex;
     flex-direction: column;
-    width: calc(100vh - 9.5rem);
+    flex-grow: 1;
+    max-width: 27.125rem;
+    margin-left: 2rem;
 }
-
-.rodape-container__formulario--label{
-    font-family: 'Raleway', sans-serif;
+.rodape__formulario--label{
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: .5rem;
 }
 
-.rodape-container__formulario--nome{
+.rodape__formulario--nome{
     border: none;
     border-radius: .25rem;
     box-shadow: 0 1px 0 #C8C8C8;
@@ -20,33 +20,30 @@
     padding: 0 .75rem;
 }
 
-.rodape-container__formulario--nome::placeholder{
-    font-family: 'Raleway', sans-serif;
+.rodape__formulario--nome::placeholder{
     font-size: 1rem;
     font-weight: 400;
     color: #A2A2A2;
-    font-family: 'Raleway', sans-serif;
 }
 
-.rodape-container__formulario--nome:focus {
+.rodape__formulario--nome:focus {
     outline: none;
     border: .0625rem solid #2A7AE4;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transition-duration: 0.1s;
 }
 
-.rodape-container__formulario--mensagem{
+.rodape__formulario--mensagem{
     border: none;
     border-radius: .25rem;
     box-shadow: 0 1px 0 #C8C8C8;
-    font-family: 'Raleway', sans-serif;
     height: 5.125rem;
     margin-bottom: 0.5rem;
     padding: 1rem .75rem;
     resize: none;
 }
 
-.rodape-container__formulario--mensagem::placeholder{
+.rodape__formulario--mensagem::placeholder{
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -54,34 +51,55 @@
 }
 
 
-.rodape-container__formulario--mensagem:focus {
+.rodape__formulario--mensagem:focus {
     outline: none;
     border: .0625rem solid #2A7AE4;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transition-duration: 0.1s;
 }
 
-.rodape-container__formulario--botao{
+.rodape__formulario--botao{
     background: #2A7AE4;
     border: none;
     color: #FFFFFF;
     cursor: pointer;
-    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     height: 3.1875rem;
-    transition: 0;
     width: 10.3125rem;
 }
 
-.rodape-container__formulario--botao:hover{
+.rodape__formulario--botao:hover{
     background: #5595E9;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transition-duration: 0.1s;
 }
 
-.rodape-container__formulario--botao:active{
+.rodape__formulario--botao:active{
     background: #5595E9;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .rodape__formulario{
+        max-width: 27.125rem
+    }
+
+    .rodape__formulario--botao{
+        height: 2.5rem;
+        width: 9.4375rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .rodape__formulario{
+        max-width: 20.5rem;
+        margin-left: 0;
+    }
+
+    .rodape__formulario--botao{
+        height: 2.5rem;
+        width: 9.4375rem;
+    }
 }

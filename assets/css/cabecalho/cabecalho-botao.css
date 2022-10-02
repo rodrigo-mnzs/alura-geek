@@ -3,11 +3,10 @@
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
     cursor: pointer;
-    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     height: 3.1875rem;
-    transition: 0;
+    margin-left: 2rem;
     width: 11.375rem;
 }
 
@@ -21,4 +20,17 @@
     background: #D4E4FA;
     box-shadow: 0 0 .3125rem #2A7AE4;
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho__botao{
+        height: 2.5rem;
+        width: 10.375rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .cabecalho__botao{
+        width: 8.3125rem;
+    }
 }

@@ -1,8 +1,7 @@
 .categoria__visualizar{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 1rem;
     color: #2A7AE4;
+    font-size: 1rem;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -19,4 +18,17 @@
 
 .categoria__visualizar:visited{
     color: #7B61FF;
+}
+
+@media screen and (max-width: 360px) {
+    .categoria__visualizar{
+        font-size: .875rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .categoria__visualizar--icone{
+        height: .6669rem;
+        width: .6669rem;
+    }
 }

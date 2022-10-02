@@ -1,0 +1,13 @@
+.banner__titulo{
+    color: #FFFFFF;
+    font-size: 3.25rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 360px) {
+    .banner__titulo{
+        font-size: 1.375rem;
+        padding-bottom: .5rem;
+    }
+}
