@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Geek</title>
+    <script src="https://kit.fontawesome.com/462b84aad5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-logo.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-botao.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-pesquisa.css">
+    <link rel="stylesheet" href="../assets/css/background.css">
+    <link rel="stylesheet" href="../assets/css/banner/banner.css">
+    <link rel="stylesheet" href="../assets/css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="../assets/css/banner/banner-subtitulo.css">
+    <link rel="stylesheet" href="../assets/css/banner/banner-botao.css">
+    <link rel="stylesheet" href="../assets/css/categoria/categoria.css">
+    <link rel="stylesheet" href="../assets/css/categoria/categoria-titulo.css">
+    <link rel="stylesheet" href="../assets/css/categoria/categoria-visualizar.css">
+    <link rel="stylesheet" href="../assets/css/produtos.css">
+    <link rel="stylesheet" href="../assets/css/produto/produto.css">
+    <link rel="stylesheet" href="../assets/css/produto/produto-imagem.css">
+    <link rel="stylesheet" href="../assets/css/produto/produto-titulo.css">
+    <link rel="stylesheet" href="../assets/css/produto/produto-preco.css">
+    <link rel="stylesheet" href="../assets/css/produto/produto-visualizar.css">
+    <link rel="stylesheet" href="../assets/css/rodape/rodape.css">
+    <link rel="stylesheet" href="../assets/css/rodape/rodape-imagem.css">
+    <link rel="stylesheet" href="../assets/css/rodape/rodape-navegacao.css">
+    <link rel="stylesheet" href="../assets/css/rodape/rodape-formulario.css">
+    <link rel="stylesheet" href="../assets/css/info.css">
+    <link rel="stylesheet" href="../assets/css/login/login.css">
+    <link rel="stylesheet" href="../assets/css/login/login-texto.css">
+    <link rel="stylesheet" href="../assets/css/login/login-email.css">
+    <link rel="stylesheet" href="../assets/css/login/login-senha.css">
+    <link rel="stylesheet" href="../assets/css/login/login-botao.css">
+</head>
+
+<body>
+    <header class="cabecalho container">
+        <a href="./../index.html"><img class="cabecalho__logo" src="../assets/images/logo.png" alt="Logo Alura Geek" /></a>
+        <div class="cabecalho__pesquisa">
+          <input id="pesquisa-campo" class="cabecalho__pesquisa--campo" type="text"placeholder="O que deseja encontrar?" />
+          <label for="pesquisa-campo"><i class="fa-solid fa-magnifying-glass cabecalho__pesquisa--icone"></i></label>
+        </div>
+    </header>
+    <main class="login">
+        <p class="login__texto">Iniciar Sessão</p>
+        <input class="login__email formulario" type="text" placeholder="Escreva seu email">
+        <input class="login__senha formulario" type="password" placeholder="Escreva sua senha">
+        <button class="login__botao botao__azul">Entrar</button>
+    </main>
+    <footer>
+        <div class="rodape container">
+          <img class="rodape__logo" src="../assets/images/logo.png" alt="Logo Alura Geek">
+          <nav class="rodape__navegacao">
+            <ul>
+              <li class="rodape__navegacao--link"><a href="#">Quem somos nós</a></li>
+              <li class="rodape__navegacao--link"><a href="#">Política de privacidade</a></li>
+              <li class="rodape__navegacao--link"><a href="#">Programa fidelidade</a></li>
+              <li class="rodape__navegacao--link"><a href="#">Nossas lojas</a></li>
+              <li class="rodape__navegacao--link"><a href="#">Quero ser franqueado</a></li>
+              <li class="rodape__navegacao--link"><a href="#">Anuncie aqui</a></li>
+            </ul>
+          </nav>
+          <form class="rodape__formulario">
+            <label class="rodape__formulario--label">Fale conosco</label>
+            <input class="rodape__formulario--nome formulario" type="text" placeholder="Nome">
+            <textarea class="rodape__formulario--mensagem formulario" placeholder="Escreva sua mensagem" cols="30" rows="10"></textarea>
+            <button class="rodape__formulario--botao botao__azul">Enviar mensagem</button>
+          </form>
+        </div>
+        <div class="info">
+          <p>Desenvolvido por Rodrigo Menezes</p>
+          <p>2022</p>
+        </div>
+      </footer>
+</body>
+
+</html>

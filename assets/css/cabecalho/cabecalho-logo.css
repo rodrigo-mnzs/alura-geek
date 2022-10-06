@@ -1,9 +1,5 @@
 .cabecalho__logo{
     height: 2.5rem;
-}
-
-@media screen and (max-width: 768px) {
-    .cabecalho__logo{
-        height: 1.75rem;
-    }
+    margin-right: 3rem;
+    width: auto;
 }

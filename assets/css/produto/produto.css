@@ -1,15 +1,9 @@
 .produto{
     height: auto;
     margin: 0 1rem 1rem 0;
+    padding-bottom: 4rem;
 }
 
 .produto:last-child{
     margin-right: 0;
-}
-
-@media screen and (max-width: 360px) {
-    .produto{
-        margin: 0 0 1rem 0;
-        width: 47.5%;
-    }
 }

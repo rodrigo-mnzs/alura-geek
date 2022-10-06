@@ -6,16 +6,3 @@
     height: 22rem;
     margin-bottom: 4rem;
 }
-
-@media screen and (max-width: 768px) {
-    .background{
-        margin-bottom: 2rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .background{
-        height: 12rem;
-        margin-bottom: 1rem;
-    }
-}

@@ -1,0 +1,15 @@
+.todos__titulo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.4063rem;
+}
+
+.todos__titulo--texto {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.todos__titulo--botao {
+    height: 3.1875rem;
+    width: 10.25rem;
+}

@@ -1,5 +1,5 @@
 .produto__visualizar{
-    color: #2A7AE4;
+    color: var(--cor-azul-escuro);
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
@@ -10,5 +10,5 @@
 }
 
 .produto__visualizar:visited{
-    color: #7B61FF;
+    color: var(--cor-roxo);
 }

@@ -1,0 +1,4 @@
+.adicionar-produto{
+    display: flex;
+    flex-direction: column;
+}

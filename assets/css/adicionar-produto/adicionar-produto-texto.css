@@ -1,0 +1,6 @@
+.adicionar-produto__texto{
+    color: var(--cor-cinza-escuro);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}

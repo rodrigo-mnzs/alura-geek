@@ -1,19 +1,5 @@
 .rodape__logo{
     height: 3.125rem;
+    margin-right: 7rem;
     width: 11rem;
-}
-
-@media screen and (max-width: 768px) {
-    .rodape__logo{
-        margin-bottom: 16px;
-        margin-right: 0;
-        max-width: 15.875rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .rodape__logo{
-        height: 3.125rem;
-        max-width: 11rem;
-    }
 }

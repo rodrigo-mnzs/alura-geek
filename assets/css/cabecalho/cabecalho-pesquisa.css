@@ -2,11 +2,10 @@
     align-items: center;
     display: flex;
     flex-grow: 1;
-    margin-left: 2rem;
 }
 
 .cabecalho__pesquisa--campo{
-    background: #F5F5F5;
+    background: var(--cor-leite);
     border: none;
     border-radius: 1.25rem;
     height: 2.5rem;
@@ -14,44 +13,23 @@
     font-weight: 400;
     padding-left: 1rem;
     padding-right: 2.5rem;
-    width: 28.7701317715959vw;
+    width: 22.6875rem;
 }
 
 .cabecalho__pesquisa--campo:focus{
     outline: none;
-    border: .0625rem solid #2A7AE4;
-    box-shadow: 0 0 .3125rem #2A7AE4;
+    border: .0625rem solid var(--cor-azul-escuro);
+    box-shadow: 0 0 .3125rem var(--cor-azul-escuro);
     transition-duration: 0.1s;
 }
 
 .cabecalho__pesquisa--campo::placeholder{
-    color: #A2A2A2;
+    color: var(--cor-cinza);
 }
 
 .cabecalho__pesquisa--icone{
-    color: #A2A2A2;
+    color: var(--cor-cinza);
     cursor: text;
     height: 1.0625rem;
     margin-left: -2.5rem;
-}
-
-@media screen and (max-width: 768px) {
-    .cabecalho__pesquisa--campo{
-        width: 17rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .cabecalho__pesquisa{
-        order: 1;
-    }
-
-    .cabecalho__pesquisa--campo{
-        display: none;
-    }
-
-    .cabecalho__pesquisa--icone{
-        color: #000000;
-        margin-left: 0;
-    }
 }

@@ -1,24 +1,7 @@
 .rodape{
-    background: #EAF2FD;;
+    background: var(--cor-leite-claro);
     display: flex;
     justify-content: space-between;
-    padding: 4rem 9.5rem;
-}
-
-@media screen and (max-width: 768px) {
-    .rodape{
-        flex-direction: column;
-        flex-wrap: wrap;
-        max-height: 22.75rem;
-        padding: 2rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .rodape{
-        align-items: center;
-        flex-wrap: nowrap;  
-        max-height: none;
-        padding: 1rem;
-    }
+    padding-top: 64px;
+    padding-bottom: 4rem;
 }

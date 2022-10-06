@@ -2,17 +2,3 @@
     display: flex;
     justify-content: space-between;
 }
-
-@media screen and (max-width: 768px) {
-    .produtos div:nth-last-child(-n+2){
-        display: none;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .produtos{
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-bottom: 1rem;
-    }
-}

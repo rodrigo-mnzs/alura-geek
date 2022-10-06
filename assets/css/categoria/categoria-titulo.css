@@ -2,9 +2,3 @@
     font-size: 2rem;
     font-weight: 700;
 }
-
-@media screen and (max-width: 768px) {
-    .categoria__titulo {
-        font-size: 1.375rem;
-    }
-}

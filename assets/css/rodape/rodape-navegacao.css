@@ -1,5 +1,5 @@
 .rodape__navegacao {
-    margin-left: 2rem;
+    margin-right: 7rem;
 }
 
 .rodape__navegacao--link {
@@ -19,19 +19,4 @@
 
 .rodape__navegacao--link:hover {
     text-decoration: underline;
-}
-
-@media screen and (max-width: 768px) {
-    .rodape__navegacao {
-        margin-bottom: 1rem;
-        margin-left: 0;
-        max-width: 15.875rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .rodape__navegacao {
-        margin-bottom: 2rem;
-        text-align: center;
-    }
 }

@@ -1,0 +1,7 @@
+.adicionar-produtos{
+    align-items: center;
+    background: var(--cor-leite-escuro);
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}

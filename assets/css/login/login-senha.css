@@ -1,0 +1,11 @@
+.login__senha{
+    height: 3.9456rem;
+    margin-bottom: 1.5394rem;
+    padding: 0 .75rem;
+    width: calc(26.4375rem - 1.5rem);
+}
+
+.login__senha::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+}

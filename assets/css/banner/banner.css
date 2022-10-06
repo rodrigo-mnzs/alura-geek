@@ -3,18 +3,4 @@
     flex-direction: column;
     height: 22rem;
     justify-content: end;
-    padding-left: 9.5rem;
-}
-
-@media screen and (max-width: 768px) {
-    .banner{
-        padding-left: 2rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .banner{
-        height: 12rem;
-        padding-left: 1rem;
-    }
 }
