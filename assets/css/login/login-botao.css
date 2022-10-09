@@ -1,5 +1,17 @@
-.login__botao{
-    height: 3.875rem;
+.login__botao {
     margin-bottom: 5.75rem;
-    width: 26.4375rem;
+}
+
+@media (min-width: 320px) {
+    .login__botao {
+        height: 2.5rem;
+        width: 6.8125rem
+    }
+}
+
+@media (min-width: 992px) {
+    .login__botao {
+        height: 3.875rem;
+        width: 26.4375rem;
+    }
 }

@@ -1,8 +1,26 @@
-.background{
+.background {
     background-image: url("../images/banner-image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 22rem;
-    margin-bottom: 4rem;
+}
+
+@media (min-width: 320px) {
+    .background{
+        margin-bottom: 1rem;
+        height: 12rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .background{
+        margin-bottom: 2rem;
+        height: 22rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .background {
+        margin-bottom: 4rem;
+    }
 }

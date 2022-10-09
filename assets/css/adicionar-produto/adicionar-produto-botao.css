@@ -1,4 +1,15 @@
 .adicionar-produto__botao{
     height: 3.1875rem;
-    width: 34.9375rem;
+}
+
+@media (min-width: 320px) {
+    .adicionar-produto__botao {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .adicionar-produto__preco {
+        width: calc(34.9375rem - 1.5rem);
+    }
 }

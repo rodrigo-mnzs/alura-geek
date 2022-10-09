@@ -1,12 +1,24 @@
 .login__email{
-    height: 3.9456rem;
     margin-bottom: 1.5394rem;
     padding: 0 .75rem;
-    width: calc(26.4375rem - 1.5rem);
 }
 
 .login__email::placeholder{
     color: var(--cor-cinza);
     font-size: 1rem;
     font-weight: 400;
+}
+
+@media (min-width: 320px) {
+    .login__email{
+        height: 2.5625rem;
+        width: calc(17.1875rem - 1.5rem);
+    }
+}
+
+@media (min-width: 992px) {
+    .login__email{
+        height: 3.9456rem;
+        width: calc(26.4375rem - 1.5rem);
+    }
 }

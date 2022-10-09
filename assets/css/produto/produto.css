@@ -1,9 +1,50 @@
-.produto{
+.produto {
     height: auto;
     margin: 0 1rem 1rem 0;
-    padding-bottom: 4rem;
 }
 
-.produto:last-child{
+.produto:last-child {
     margin-right: 0;
+}
+
+@media (min-width: 320px) {
+    .produto{
+        margin-bottom: 1rem;
+    }
+    
+    .produto:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .produto:nth-child(even){
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .produto{
+        margin-bottom: 4rem;
+    }
+
+    .produto:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .produto:nth-child(even){
+        margin-right: 1rem;
+    }
+
+    .produto:nth-last-child(3) {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .produto:nth-last-child(-n+2) {
+        display: unset;
+    }
+
+    .produto:nth-child(even){
+        margin-right: 1rem;
+    }
 }

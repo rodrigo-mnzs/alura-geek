@@ -1,6 +1,18 @@
-.banner__subtitulo{
+.banner__subtitulo {
     color: var(--cor-branco);
-    font-size: 1.375rem;
-    font-weight: 700;
     margin-bottom: 1rem;
+}
+
+@media (min-width: 320px) {
+    .banner__subtitulo{
+        font-size: .875rem;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner__subtitulo {
+        font-size: 1.375rem;
+        font-weight: 700;
+    }
 }

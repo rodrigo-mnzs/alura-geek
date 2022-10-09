@@ -1,6 +1,18 @@
-.banner__titulo{
+.banner__titulo {
     color: var(--cor-branco);
-    font-size: 3.25rem;
-    font-weight: 700;
     margin-bottom: 1rem;
+}
+
+@media (min-width: 320px) {
+    .banner__titulo{
+        font-size: 1.375rem;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner__titulo {
+        font-size: 3.25rem;
+        font-weight: 700;
+    }
 }

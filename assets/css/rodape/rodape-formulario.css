@@ -39,3 +39,27 @@
     height: 3.1875rem;
     width: 10.3125rem;
 }
+
+@media (min-width: 320px) {
+    .rodape__formulario{
+        align-self: unset;
+        max-width: unset;
+        width: 100% ;
+    }
+}
+
+@media (min-width: 768px) {
+    .rodape__formulario{
+        align-self: flex-end;
+        max-width: unset;
+        width: 27.125rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .rodape__formulario{
+        align-self: unset;
+        max-width: 560px;
+        width: auto;
+    }
+}

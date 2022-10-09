@@ -1,5 +1,24 @@
 .cabecalho__logo{
-    height: 2.5rem;
-    margin-right: 3rem;
     width: auto;
+}
+
+@media (min-width: 320px) {
+    .cabecalho__logo{
+        height: 1.75rem;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .cabecalho__logo{
+        height: 1.75rem;
+        margin-right: 2.375rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .cabecalho__logo{
+        height: 2.5rem;
+        margin-right: 3rem;
+    }
 }

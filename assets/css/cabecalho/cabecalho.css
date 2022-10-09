@@ -1,5 +1,18 @@
 .cabecalho{
     align-items: center;
     display: flex;
-    height: 7.1875rem;
+}
+
+@media (min-width: 320px) {
+    .cabecalho{
+        height: 4.5rem;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 992px) {
+    .cabecalho{
+        height: 7.1875rem;
+        justify-content: unset;
+    }
 }

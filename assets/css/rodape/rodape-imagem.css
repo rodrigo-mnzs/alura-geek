@@ -1,5 +1,25 @@
-.rodape__logo{
+.rodape__logo {
     height: 3.125rem;
-    margin-right: 7rem;
     width: 11rem;
+}
+
+@media (min-width: 320px) {
+    .rodape__logo {
+        margin-bottom: 1rem;
+        margin-right: unset;
+    }
+}
+
+@media (min-width: 768px) {
+    .rodape__logo {
+        margin-bottom: 1rem;
+        margin-right: unset;
+    }
+}
+
+@media (min-width: 992px) {
+    .rodape__logo {
+        margin-bottom: 0;
+        margin-right: 2rem;
+    }
 }
