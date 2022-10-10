@@ -16,12 +16,12 @@ class Footer extends HTMLElement{
           </nav>
           <form class="rodape__formulario">
             <label class="rodape__formulario--label">Fale conosco</label>
-            <input class="rodape__formulario--nome formulario" type="text" placeholder="Nome">
-            <textarea class="rodape__formulario--mensagem formulario" placeholder="Escreva sua mensagem" cols="30" rows="10"></textarea>
-            <button class="rodape__formulario--botao botao__azul">Enviar mensagem</button>
+            <input class="rodape__formulario--nome main--form" type="text" placeholder="Nome">
+            <textarea class="rodape__formulario--mensagem main--form" placeholder="Escreva sua mensagem" cols="30" rows="10"></textarea>
+            <button class="rodape__formulario--botao primary--button">Enviar mensagem</button>
           </form>
         </div>
-        <div class="info">
+        <div class="footer__author">
           <p>Desenvolvido por Rodrigo Menezes</p>
           <p>2022</p>
         </div>

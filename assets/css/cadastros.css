@@ -1,0 +1,30 @@
+.cadastros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 320px) {
+    .cadastro{
+        flex: 47%;
+    }
+}
+
+@media (min-width: 768px) {
+    .cadastro{
+        flex: 23%;
+    }
+}
+
+@media (min-width: 992px) {
+    .cadastro{
+        flex: 15%;
+    }
+}

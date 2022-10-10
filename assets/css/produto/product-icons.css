@@ -1,0 +1,18 @@
+.product__icons{
+    bottom: -11px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: -16px;
+    position: relative;
+    right: 11px;
+    z-index: 1;
+}
+
+.fa-trash{
+    color: var(--cor-branco);
+}
+
+.fa-pen{
+    color: var(--cor-branco);
+    margin-left: 1.5rem;
+}

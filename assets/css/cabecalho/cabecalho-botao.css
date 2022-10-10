@@ -1,16 +1,32 @@
+.cabecalho__botao--admin{
+    display: none;
+}
+
+.cabecalho__botao--login{
+    display: none;
+}
+
+.home .cabecalho__botao--login{
+    display: inline-block;
+}
+
+.add-admin .cabecalho__botao--admin{
+    display: inline-block;
+}
+
 @media (min-width: 320px) {
     .cabecalho__botao{
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 400;
         height: 2.5rem;
-        width: 36.944vw;
+        width: 8.3125rem;
     }
 }
 
 @media (min-width: 768px) {
     .cabecalho__botao{
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 400;
         height: 2.5rem;
         width: 10.375rem;
     }
